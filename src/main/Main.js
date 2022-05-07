@@ -60,7 +60,7 @@ const Main = () => {
                         option: "Frustrating Game",
                         nextPrompt: 1,
                         scoreChanges: [-1, -3, 1],
-                        outcome: "You play a very frustrating game, and become so frustrated that you lost the track of time and realize that you have to do homework, however have trouble focusing on it due to the frustration of the game."
+                        outcome: "You play a very frustrating game, and become so frustrated that you lost the track of time and realize that you have to do homework. While you try to do it, you have trouble focusing on it due to the frustration of the game."
                     }
                 ]
             },
@@ -201,13 +201,13 @@ const Main = () => {
                 ]
             },
             {
-                prompt: "This person gets very upset with you",
+                prompt: "This person gets very upset with you and their friend group will start calling you out for illegal things you didn't do unless you do what they ask",
                 choices: [
                     {
-                        option: "Get upset",
-                        nextPrompt: 12,
-                        scoreChanges: [0, -10, 2],
-                        outcome: "You get very upset, and eventually become increasingly frustrated and completely unproductive."
+                        option: "Do what they ask of you",
+                        nextPrompt: 6,
+                        scoreChanges: [-2, -10, -1],
+                        outcome: "You Decide to do what they ask"
                     },
                     {
                         option: "Take a break from the internet",
